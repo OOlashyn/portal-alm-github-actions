@@ -33,7 +33,7 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: upload-paportal action
-        uses: microsoft/powerplatform-actions/upload-paportal@0.4.0
+        uses: microsoft/powerplatform-actions/upload-paportal@0.4.3
         with:
           environment-url: ${{env.ENVIRONMENT_URL}}
           app-id: ${{env.CLIENT_ID}}
